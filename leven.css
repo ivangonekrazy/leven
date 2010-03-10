@@ -1,0 +1,32 @@
+form ul {
+	list-style-type: none;
+	width: 100%;
+}
+
+form li {
+	display: block;
+	clear: both;
+	margin: 10px;
+}
+
+form li label {
+	display: block;
+	margin-bottom: 3px;
+}
+
+#meter {
+	width: 133px;
+	border: thin solid gray;
+	padding: 5px;
+}
+
+#bar {
+	background-color: red;
+	width: 1%;
+	height: 15px;
+	overflow: hidden;
+}
+
+#message {
+	margin-top: 10px;
+}
